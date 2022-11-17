@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/indexstyle.css')}}">
+    <link rel="icon" href="{{url_for('static',filename='img/ibmlogo.png')}}">
+
+
+    <title>Join-Parkinson Detection System</title>
+</head>
+
+<body>
+
+
+    <form class="login-page">
+        <div class="login create-user">
+            <h2>
+                Sign Up - Parkinson Detection System
+            </h2>
+
+            <table class="info-table">
+
+
+                <!-- name -->
+                <tr>
+                    <td>
+                        <h3>Name</h3>
+                    </td>
+                    <td><input name="name" class="login-ip sign" type="text" placeholder="Enter your Name" id="">
+                    </td>
+                </tr>
+
+
+                <!-- usernmae -->
+                <tr>
+                    <td>
+                        <h3>Username</h3>
+                    </td>
+                    <td><input name="username" class="login-ip sign" type="text" placeholder="Enter email ID" id="">
+                    </td>
+                </tr>
+
+                <!-- password -->
+                <tr>
+                    <td>
+                        <h3>Password</h3>
+                    </td>
+                    <td><input name="password" class="login-ip sign" type="text" placeholder="Enter a password" id="">
+                    </td>
+                </tr>
+                <!-- repassword -->
+                <tr>
+                    <td>
+                        <h3>Repeat <br> Password</h3>
+                    </td>
+                    <td><input name="password" class="login-ip sign" type="text" placeholder="Re-enter the password"
+                            id=""></td>
+                </tr>
+
+
+
+            </table>
+
+
+            <button class="login-button signup-btn">Sign Up</button>
+            <a href="{{url_for('index')}}">
+                <p>Back to login?</p>
+            </a>
+        </div>
+    </form>
+
+</body>
+
+</html>
