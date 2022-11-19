@@ -1,3 +1,4 @@
 # IBM-Project-23502-1659884465
 Detecting Parkinson’s Disease using Machine Learning
+
 Diagnosis of Parkinson's disease (PD) is commonly based on medical observations and assessment of clinical signs, including the characterization of a variety of motor symptoms. However, traditional diagnostic approaches may suffer from subjectivity as they rely on the evaluation of movements that are sometimes subtle to human eyes and therefore difficult to classify, leading to possible misclassification. In the meantime, early non-motor symptoms of PD may be mild and can be caused by many other conditions. Therefore, these symptoms are often overlooked, making diagnosis of PD at an early stage challenging. To address these we came up with a solution that provides prediction of parkinson with the help of Data Science and Machine Learning Problems.
